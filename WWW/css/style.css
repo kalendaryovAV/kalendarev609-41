@@ -1,75 +1,96 @@
 body {
-    width: 1440px;
-    height: 4628px;
-    background-color:#FBFBFB;
-    ;
+    margin: 0;
 }
 
-header {
-    width: 1440px;
-    height: 60px;
+.main-section {
+    background-image: url(../img/designer_1.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+    
+    padding-left: 163px;
+    padding-right: 165px;
+}
+
+.nav {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header-list {
-    list-style: none;
+    list-style-type: none;
     display: flex;
-    flex-direction: row;
-    margin-left: 165px;
-    margin-top: 18px;
-    width: 245px;
+    justify-content: space-between;
     height: 24px;
-}
-
-.header-list-item {
+    width: 245px;
+    margin-top: 18px;
+    font-size: 18px; 
     color: rgba(80, 95, 152, 1);
 }
-
-#center-header-list-element {
-    margin-left: 98px;
-    margin-right: 98px;
+.header-list-item {
+    margin: 0;
 }
-
-.header-label {
-    width: 95px;
-    height: 38px;
-    margin-top: 12px;
-    margin-left: 681px;
-    margin-right: 1131px;
+.header-h1 {
+    font-size: 26px;
     color: rgba(55, 68, 126, 1);
-    
 }
-
-.header-button {
+.buynow-button {
     width: 160px;
     height: 26px;
-    margin-top: 18px;
-    margin-left: 1119px;
-    margin-right: 165px;
-    background-image: url(/img/button-background.png);
-    background-size: auto;
+    background-color: rgba(17, 27, 71, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    border-radius: 5px 5px 5px 5px;
+}
+.main-section-info {
+    width: 539px;
+    height: 421px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.introduction {
+    width: 539px;
+    height: 316px;
+    margin-top: 243px;
+    margin-bottom: 69px;
+}
+.main-section-info-h1 {
+    color: rgba(9, 17, 51, 1);
+    font-size: 50px;
+}
+.main-section-p {
+    color: rgba(80, 95, 152, 1);
+    font-size: 18px;
+}
+.purchase-button {
+    text-align: center;
+    width: 189px;
+    height: 36px;
+    border: none;
+    background-color: rgba(17, 27, 71, 1);
+    margin-right: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    border-radius: 3px 3px 3px 3px;
+}
+.learnmore-button {
+    width: 189px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(9, 17, 51, 1);
+    border-style: solid;
+    border-color:rgba(9, 17, 51, 1);
+    font-size: 16px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.basement-section {
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url(../img/Rectangle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
-.new_elements{
-    display: flex;
-    
-}
-
-.new_elementsitem{
-    margin-top: 150px;
-    background-color:#FFFFFF;
-    width: 373px;
-    height: 260px;
-
-}
-
-.new_elementsheader{
-    width: 85px;
-    height: 30px;
-    top: -3px;
-
-
-
-}
