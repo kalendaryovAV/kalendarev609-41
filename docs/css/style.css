@@ -64,6 +64,10 @@ body {
     color: rgba(80, 95, 152, 1);
     font-size: 18px;
 }
+
+.purchase-learnmore-button {
+    display: flex;
+}
 .purchase-button {
     text-align: center;
     width: 189px;
